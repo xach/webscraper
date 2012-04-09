@@ -2,7 +2,7 @@
 
 (asdf:defsystem #:webscraper
   :serial t
-  :documentation "Half-baked web-scraping library."
+  :description "Half-baked web-scraping library."
   :depends-on (#:drakma
                #:cxml-stp
                #:cl-ppcre)
